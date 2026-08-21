@@ -651,5 +651,9 @@ document.getElementById('contactForm').addEventListener('submit',function(e){e.p
 // Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var h=a.getAttribute('href');if(h==='#'||h.length<2)return;var t=document.querySelector(h);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'})}})});
 </script>
+  <style>
+  #copyCodeBtn { display: none !important; }
+</style>
+
 </body>
 </html>
