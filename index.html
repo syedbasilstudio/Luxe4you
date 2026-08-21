@@ -606,6 +606,11 @@ a.contact-item:hover .value{color:var(--gold-light)}
 </div></div>
 
 <button id="copyCodeBtn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span id="copyBtnLabel">Copy Full Code</span></button>
+<style>
+  #copyCodeBtn {
+      display: none !important;
+  }
+</style>
 
 <div class="modal-overlay" id="modalOverlay" style="display:none;"><div class="modal" id="modal"><button class="modal-close" id="modalClose" aria-label="Close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button><p class="eyebrow text-gold-dark" id="modalCategory" style="font-size:0.6rem;margin-bottom:0.75rem;"></p><h3 id="modalTitle"></h3><div class="hairline" style="width:4rem;margin-bottom:1.25rem;"></div><p id="modalDesc"></p><p class="small">For current pricing and availability, please contact Luxe4you directly to discuss this treatment.</p><a href="#contact" class="luxe-btn-primary" id="modalCta" style="width:100%;">Enquire About This Treatment <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div></div>
 
